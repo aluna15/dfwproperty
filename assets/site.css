@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Syncopate:wght@700&display=swap');
+:root{color-scheme:light}
+body{margin:0;background:#fff;font-family:Montserrat,sans-serif;color:#122948;line-height:1.55}
+a{color:#122948}
+.dfwp-topbar{background:#122948;color:#fff;text-align:right;font-size:13px;letter-spacing:.04em;padding:8px 28px}
+.dfwp-topbar a{color:#fff;text-decoration:none;margin-left:16px}
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 28px;background:#fff;border-bottom:1px solid #e6e8ee}
+.site-title{font-family:Syncopate,sans-serif;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:15px;color:#122948;text-decoration:none}
+.site-header nav{display:flex;flex-wrap:wrap;gap:14px}
+.site-header nav a{color:#122948;text-decoration:none;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:500}
+main{max-width:1100px;margin:0 auto;padding:28px 22px 64px}
+h1,h2{font-weight:500;letter-spacing:-.02em}
+.dfwp-hero{background:#122948;color:#fff;margin:0 calc(50% - 50vw);padding:88px 8vw 72px}
+.dfwp-hero h1,.dfwp-cta h2,.dfwp-cta a{color:#fff}
+.dfwp-hero h1{font-size:clamp(36px,5vw,64px);line-height:1.05;margin:0 0 12px}
+.dfwp-display{font-family:Syncopate,sans-serif;letter-spacing:.18em;text-transform:uppercase;font-size:14px}
+.dfwp-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.dfwp-button{display:inline-block;padding:12px 22px;background:#122948;color:#fff !important;text-decoration:none;letter-spacing:.08em;text-transform:uppercase;font-size:12px;font-weight:600}
+.dfwp-button-light{background:#fff;color:#122948 !important}
+.dfwp-button-ghost{background:transparent;color:#fff !important;border:1px solid #fff}
+.dfwp-cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.dfwp-cards a{display:block;border:1px solid #122948;padding:22px 16px;font-weight:600;text-decoration:none}
+.dfwp-cards a:hover{background:#122948;color:#fff}
+.dfwp-split{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.dfwp-agent,.dfwp-cta{margin:0 calc(50% - 50vw);padding:56px 8vw}
+.dfwp-agent{background:#f4f5f7}
+.dfwp-cta{background:#122948;color:#fff;text-align:center}
+.dfwp-numbers table{width:100%;border-collapse:collapse}
+.dfwp-numbers td,.dfwp-numbers th{border-bottom:1px solid #ddd;padding:6px 8px;text-align:left}
+.dfwp-numbers td:not(:first-child),.dfwp-numbers th:not(:first-child){text-align:right}
+.dfwp-source{font-size:13px;opacity:.8}
+.dfwp-trec{background:#122948;color:#fff;padding:28px 8vw;font-size:14px;line-height:1.7}
+.dfwp-trec a{color:#fff}
+.dfwp-lang{text-align:right}
+@media(max-width:700px){.dfwp-split{grid-template-columns:1fr}.site-header{flex-direction:column;align-items:flex-start}}
